@@ -1,0 +1,32 @@
+
+
+/******************************Navbar**************************/
+#menu{
+	background-color:rgba(0, 0, 0, 0.1);
+	color: #ffffff;
+}
+.navbar-light .navbar-brand{
+	color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+	color: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #ffffff;
+}
+
+
+#img-de-fond{
+	background-attachment: fixed;
+}
+body{
+background:url('../img/earth2.jpg');
+background-size: cover;
+color: #ffffff;
+}
+
+#lareponse{
+	width: 15%;
+}
+
