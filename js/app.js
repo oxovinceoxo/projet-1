@@ -2,12 +2,12 @@
 function reponse(){
 	let reponse = document.getElementById("lareponse").value
 	if(reponse.length == 0){
-		alert("Merci de remplir le champs")
+		document.getElementById("affiche-reponse").innerHTML = "<b>Merci de remplir le champs</b>"
 	}else if(reponse == 64){
-		alert("bonne reponse")
+		document.getElementById("affiche-reponse").innerHTML = "<b>bonne réponse !</b>"
 	}else if(reponse >= 64){
-		alert("la réponse est plus basse")
+		document.getElementById("affiche-reponse").innerHTML = "<b>la réponse est plus basse</b>"
 	}else{
-		alert("la réponse est plus haute")
+		document.getElementById("affiche-reponse").innerHTML = "<b>la réponse est plus haute</b>"
 	}
 }
