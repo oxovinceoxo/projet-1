@@ -4,19 +4,21 @@
 #menu{
 	background-color:rgba(0, 0, 0, 0.1);
 	color: #ffffff;
+	background-repeat: no-repeat;
 }
-.navbar-light .navbar-brand{
+
+.nav-link{
 	color: #ffffff;
 }
 
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
-	color: #ffffff;
-}
-.navbar-light .navbar-nav .nav-link{
+/*couleur passage de la souris du lien page 1*/ 
+#pills-profile-tab{
 	color: #ffffff;
 }
 
 
+
+/*image de fond*/
 #img-de-fond{
 	background-attachment: fixed;
 }
@@ -30,3 +32,14 @@ color: #ffffff;
 	width: 15%;
 }
 
+/*contenu*/
+
+.contenu{
+	margin: 20px;
+	background-color: #ffffff;
+	padding: 25px;
+	font-size: 24px
+}
+.contenu1{
+	color: #000000;
+}
